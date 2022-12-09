@@ -1,0 +1,22 @@
+#include <iostream>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+
+int main()
+{
+	int n, f;
+	cout << "please enter a number: ";
+	cin >> n;
+	
+	while (n > 10)
+	{
+		n /= 10;
+		cout << n << endl;
+	}
+	cout << n;
+
+	
+	
+	return 0;
+}
